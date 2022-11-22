@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { FadeInOut, Hobbies, MyInfo, Projects, Skills, WorkExperience } from '../../components'
+import { FadeInOut, Hobbies, Projects, Skills } from '../../components'
 
 
 function ContactScreen() {

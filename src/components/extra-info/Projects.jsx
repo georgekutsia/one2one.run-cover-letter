@@ -9,35 +9,17 @@ function Projects() {
   const [project1, setProject1] = useState(false)
   const [project2, setProject2] = useState(false)
   const [project3, setProject3] = useState(false)
-  const [project4, setProject4] = useState(false)
-  const [project5, setProject5] = useState(false)
-  const [project6, setProject6] = useState(false)
-  const [project7, setProject7] = useState(false)
-  const [project8, setProject8] = useState(false)
+
     const handleProject1 = () =>{
-      setProject1(!project1);setProject2(false);setProject3(false);setProject4(false);setProject5(false);setProject6(false);setProject7(false);setProject8(false);
+      setProject1(!project1);setProject2(false);setProject3(false);
     }
     const handleProject2 = () =>{
-      setProject1(false);setProject2(!project2);setProject3(false);setProject4(false);setProject5(false);setProject6(false);setProject7(false);setProject8(false);
+      setProject1(false);setProject2(!project2);setProject3(false);
     }
     const handleProject3 = () =>{
-      setProject1(false);setProject2(false);setProject3(!project3);setProject4(false);setProject5(false);setProject6(false);setProject7(false);setProject8(false);
+      setProject1(false);setProject2(false);setProject3(!project3);
     }
-    const handleProject4 = () =>{
-      setProject1(false);setProject2(false);setProject3(false);setProject4(!project4);setProject5(false);setProject6(false);setProject7(false);setProject8(false);
-    }
-    const handleProject5 = () =>{
-      setProject1(false);setProject2(false);setProject3(false);setProject4(false);setProject5(!project5);setProject6(false);setProject7(false);setProject8(false);
-    }
-    const handleProject6 = () =>{
-      setProject1(false);setProject2(false);setProject3(false);setProject4(false);setProject5(false);setProject6(!project6);setProject7(false);setProject8(false);
-    }
-    const handleProject7 = () =>{
-      setProject1(false);setProject2(false);setProject3(false);setProject4(false);setProject5(false);setProject6(false);setProject7(!project7);setProject8(false);
-    }
-    const handleProject8 = () =>{
-      setProject1(false);setProject2(false);setProject3(false);setProject4(false);setProject5(false);setProject6(false);setProject7(false);setProject8(!project8);
-    }
+
   return (
     <div>
         <div className='info-sub-titles mt-5'>Few Projects</div>

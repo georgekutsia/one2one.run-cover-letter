@@ -1,8 +1,6 @@
 .little-more-title{
-  font-size: calc(15px + 2vw);
+  font-size: calc(17px + 2vw);
   text-indent: 5%;
-  text-shadow: 1px 1px grey;
-  text-shadow: 2px 2px grey;
   font-family: Alkalami;
 }
 
@@ -123,8 +121,6 @@
   font-size: calc(15px + 1.5vw);
   font-family: Alkalami;
   padding-left:20px;
-  text-shadow: 1px 1px rgb(123, 120, 120);
-  text-shadow: 1.5px 1.5px rgb(0, 0, 0);
   background-image: url("https://res.cloudinary.com/dfrda73uc/image/upload/v1668879841/donGions%20imgs/istockphoto-995576522-1024x1024_wxqfa7_1_qbh5nw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
