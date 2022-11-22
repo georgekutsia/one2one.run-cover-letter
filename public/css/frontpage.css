@@ -1,0 +1,157 @@
+/* top part start */
+.background-all {
+  margin-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info-frontpage {
+  display: flex;
+}
+.contact-info-frontpage div {
+  margin-left: 20px;
+  font-size: calc(10px + 1vw);
+}
+.contact-info-frontpage a {
+  font-size: calc(18px + 1vw);
+}
+
+.download-link {
+  text-decoration: none;
+  font-size: calc(10px + 0.4vw);
+}
+
+.name-title {
+  background-image: url("https://res.cloudinary.com/dfrda73uc/image/upload/v1668642920/donGions%20imgs/Captura_de_pantalla_2022-11-17_a_las_0.54.56_cbtafz.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.9vw 1vw;
+}
+.name {
+  font-size: calc(10px + 2vw);
+}
+.title {
+  font-size: calc(8px + 1vw);
+}
+.studies {
+  font-size: calc(4px + 1vw);
+}
+/* top part end */
+
+/* cover letter body start */
+.cover-letter-body span{
+  text-align: justify;
+  font-style: italic;
+  font-weight: 700;
+  font-size: calc(8px + 0.5vw);
+}
+.cover-letter-body {
+  padding-top: 5%;
+  font-size: calc(12px + 0.5vw);
+  text-indent: 20px;
+
+}
+.cover-letter-body article {
+  font-size: calc(10px + 0.5vw);
+  margin-top: 2%;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+/* cover letter body end */
+
+
+
+/* buttons start*/
+.my-btn {
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  max-height: 10%;
+  vertical-align: middle;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  background: transparent;
+  cursor: pointer;
+  transition: all 1.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-more-info {
+  background: rgb(33, 233, 251);
+  background: linear-gradient(
+    0deg,
+    rgb(33, 207, 251) 0%,
+    rgb(76, 92, 234) 100%
+  );
+  color: #fff;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: calc(5px + 1vw);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn-more-info:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-more-info:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-more-info:hover {
+  opacity: 0.7;
+}
+.btn-more-info:active {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+/* buttons end*/
+
+
+.background-all img{
+  width: 5%;
+}
+.opacity{
+  opacity: 0.4;
+}
