@@ -1,3 +1,7 @@
+.changer-color{
+  color: blue;
+  background-color: blue;
+}
 .little-more-title{
   font-size: calc(17px + 2vw);
   text-indent: 5%;

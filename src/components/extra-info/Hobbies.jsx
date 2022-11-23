@@ -101,12 +101,12 @@ function Hobbies() {
                 {text1 && 
                     <div>
                         <div> 
-                            I started playing Chess and competing when I was just 7 years old. I played all kinds of clasical Board Games <span>(Backgammon, Draughts, Domino, Reversi etc.)</span>
-                            and than discovered a new world with modern ones after I moved to Spain at 13. I have a large collection of games <span>(Catan, Jungle Speed, King of Tokyo, Pandemic etc.)</span>, but my biggest
-                            and oldest collection is <span> Magic The Gathering </span> 
+                            I started playing Chess and competing when I was just 7 years old. I played all kinds of classical Board Games <span>(Backgammon, Draughts, Domino, Reversi etc.)</span> and then discovered 
+                            a new world with modern ones after I moved to Spain at 13. I have a large collection of games <span>(Catan, Jungle Speed, King of Tokyo, Pandemic etc.)</span>, but my biggest and oldest 
+                            collection is<span> Magic The Gathering </span>
                         </div>
                         <div>
-                          I also co-created non-profit organization called Jumanki in salamanca and organized some events with goverment endorsed fundings. Fun times young life...
+                            I also co-created non-profit organization called Jumanki in Salamanca and organized some events with government endorsed funding. Fun times young life...
                         </div>
                     </div>
                         }
@@ -115,9 +115,10 @@ function Hobbies() {
             <FadeInOut show={text2} duration={500}>
                 {text2 &&
                     <div>
-                          I was really good at everything related to math when I was young and loved the books my uncle <span> (Math and Science teacher) </span> gave me from time to tame. I participated in Ridle and Problem solving competitions in School and represented
-                          my class competing with others. I was not the smartest, but loved thinking outside the box or reordering information and knowledge to figure out a solution. Still love it. Thats why its so fun Programming for me, even if it takes me ages to solve
-                          something that already has been unswered online. Some things is better to figure out by yourself if possible and feel that rush of pleasure...
+                    I was really good at everything related to math when I was young and loved the books my uncle <span> (Math and Science teacher)</span> gave me from time to tame. 
+                    I participated in Riddle and Problem-solving competitions in School and represented my class competing with others. I was not the smartest, but loved thinking outside 
+                    the box or reordering information and knowledge to figure out a solution. Still love it. That's why it's so fun programming for me, even if it takes me ages to solve
+                    something that already has been answered online. Some things are better to figure out by yourself if possible and feel that rush of pleasure...
                     </div>}
             </FadeInOut>
             <FadeInOut show={text3} duration={500}>
@@ -142,31 +143,29 @@ function Hobbies() {
             <FadeInOut show={text4} duration={500}>
                 {text4 && 
                       <div> 
-                          World is a big place and even in Spain, where I`ve lived the most, there are still lots of places I havent seen. it's amazing
-                          the number of cultures, ideas, traditions, foods, values, landscapes, experiences, etc., that can be discovered by experimenting
-                          the world at its best and worst. There are still many places that I have to visit and luckily my partner has the same passion and 
-                          ease to move, so who knows where my trip will continue
+                      The world is a big place and even in Spain, where I've lived the most, there are still lots of places I haven't seen. It's amazing the number of cultures, ideas, traditions, foods,
+                      values, landscapes, experiences, etc., that can be discovered by experimenting the world at its best and worst. There are still many places that I have to visit and luckily my partner
+                      has the same passion and ease to move, so who knows where my trip will continue
                       </div>}
             </FadeInOut>
             <FadeInOut show={text5} duration={500}>
                 {text5 && 
                       <div>
                           <div>
-                            I like to think of myself as the <span>"go to"</span> person, with variety knowledge and resources, combining them to come up with some solution that no one has thought of.
+                          I like to think of myself as the <span>"go to"</span> person, with a variety of knowledge and resources, combining them to come up with some solution that no one has thought of.
                           </div>
                           <div>
-                            I also like to create new board games, write songs, stories, poems, fantasy stories... I enjoy combining ideas and objects, seeing them from a new perspective.
+                          I also like to create new board games, write songs, stories, poems, fantasy stories... Furthermore, I enjoy combining ideas and objects, seeing them from a new perspective.
                           </div>
                           <div>
-                            Because of all this, programming for me is literally like magic: taking a sequence of numbers and letters to manipulate digital reality.
-                          </div>
+                          Because of all this, programming for me is literally like magic: taking a sequence of numbers and letters to manipulate digital reality.                          </div>
                       </div>}
             </FadeInOut>
             <FadeInOut show={text6} duration={500}>
                 {text6 && 
                         <div> 
                           <div>
-                            I grew up in a large family and although I don't have siblings, I never felt alone. Lots of friends and a healthy social life made me who I am, and even though I had many years of loneliness and hardship, it didn't change my desire for sociability.
+                            I grew up in a large family, and although I don't have siblings, I never felt alone. Lots of friends and a healthy social life made me who I am, and even though I had many years of loneliness and hardship, it didn't change my desire for sociability.
                           </div>
                           <div>
                           My children have become the greatest joy in my life and all the changes I make in it are for them and my partner, someone who has unconditionally supported me in my career change. I want to keep up with new technologies for them and improve everything possible to give them the life they deserve.
@@ -177,13 +176,13 @@ function Hobbies() {
                 {text7 && 
                           <div> 
                             <div>
-                              I enjoy big variety of arts and try to create my own. From music and dance to literature and cinema, I try to participate and create my own works. 
+                            I enjoy a big variety of arts and try to create my own. From music and dance to literature and cinema, I try to participate and create my own works.
                             </div>
                             <div>
-                              Luckily, as a child I was stimulated with all kinds of musical instruments, physical expressions and martial arts, so although I have failed in many, I can say that I have tried and I keep trying.
+                            Luckily, as a child I was stimulated with all kinds of musical instruments, physical expressions and martial arts, so although I have failed in many, I can say that I have tried, and I keep trying.
                             </div>
                             <div>
-                              I even worked like magician for children from time to time for a non profit organization a long time ago.
+                            I even worked like a magician for children from time to time for a non-profit organization a long time ago.
                             </div>
                           </div>}
             </FadeInOut>
@@ -195,8 +194,8 @@ function Hobbies() {
                               On the other hand, my father always says: instead of learning to fight in 20 years, learn to run in a month and that's it.
                             </div>
                             <div>
-                              I trained and taught self defense when I was studying at the university from children to the elderly. My shoulder injury prevented me from competing professionally,
-                              but in a martial art like Kung Fu or Muay Thai, competing is a very small part.                            
+                            I trained and taught self-defense when I was studying at the university, from children to the elderly. My shoulder injury prevented me from competing professionally,
+                            but in a martial art like Kung Fu or Muay Thai, competing is a very small part.                          
                             </div>
                             <div>
                             I had the opportunity to put my skills to the test on more than one occasion working as a nightclub bouncer for a while, although solving tense situations with a verbal resolution was much more satisfying
@@ -208,7 +207,7 @@ function Hobbies() {
                 {text9 && 
                           <div> 
                             <div>
-                              I'm not afraid to play sports that I haven't tried yet and I'm decent at the ones that I have tried. A long list, predominantly volleyball and basketball,
+                              I'm not afraid to play sports that I haven't tried yet, and I'm decent at the ones that I have tried. A long list, predominantly volleyball and basketball,
                               but staying in shape is priceless. As always, mens sana in corpore sano, helps to maintain a competitive and healthy mentality, collaborative depending on which sports. 
                             </div>
                             <div>

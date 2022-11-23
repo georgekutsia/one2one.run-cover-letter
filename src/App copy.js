@@ -3,7 +3,7 @@ import { Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container changer-color'>
       <Routes>
         <Route  path="/" element={<FrontpageScreen/>} /> 
         <Route  path="/contact" element={<ContactScreen/>} /> 
