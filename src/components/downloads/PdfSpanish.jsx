@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 function PdfSpanish() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('one2one.run español pfd.pdf').then(response => {
+    fetch('gamify español.pdf').then(response => {
         response.blob().then(blob => {
             // Creating new object of PDF file
             const fileURL = window.URL.createObjectURL(blob);
             // Setting various property values
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'one2one.run español pfd.pdf';
+            alink.download = 'gamify español.pdf';
             alink.click();
         })
     })

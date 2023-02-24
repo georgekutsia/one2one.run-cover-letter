@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 function PdfEnglish() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('one2one.run english.pdf').then(response => {
+    fetch('gamify english.pdf').then(response => {
         response.blob().then(blob => {
             // Creating new object of PDF file
             const fileURL = window.URL.createObjectURL(blob);
             // Setting various property values
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'one2one.run english.pdf';
+            alink.download = 'gamify english.pdf';
             alink.click();
         })
     })

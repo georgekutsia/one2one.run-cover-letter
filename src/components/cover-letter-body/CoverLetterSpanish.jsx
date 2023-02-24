@@ -3,20 +3,19 @@ import React from 'react'
 function CoverLettereEnglish() {
   return (
     <div className='cover-letter-body'>
-      <div> Estimados Nikolai Petrov e Ivan Butkevych</div>
+      <div> Es un placer escribir esta carta de presentación. </div>
       <article> 
-                Fue un placer leer sobre su aplicación, descargar la versión beta y probarla. El concepto es genial, lo aplicaría a muchas otras cosas.
-                Me encanta la idea de gamificarlo y mi cabeza no ha parado de pensar en que más se podría hacer, pero seguro que ya habéis pensado en todo.
+      Me atrae desde hace muchos años gamificar el aprendizaje para niños y sobre todo las matemáticas. Hacerlo más asequible, divertido y fácil de entender, 
+      es la mejor manera de abrir los ojos a lo divertidas que son las matemáticas, la geometria y la magia.
       </article>
       <article> 
-                Durante muchos años hice artes marciales y el placer de concentrarme en tu actividad, la rutina, el esfuerzo, controlar la respiración, superar tus límites, la fuerza mental...
-                Aunque últimamente no soy un corredor muy ávido, <span> (por motivos de salud, peso y tiempo limitado)</span> entiendo perfectamente el placer que uno puede sentir y
-                aunque es un placer individual, como todos los placeres, a veces compartirlos los hace mucho mejores.
+      De pequeño solía competir en pruebas matemáticas, acertijos, adivinanzas, ajedrez etc.  y ahora que tengo dos hijos pequeños, siempre le estoy dando vueltas 
+      a cómo haré para que sientan la misma curiosidad y pasión que yo cuando llegue el momento. Esa es una de las razones por las que decidí cambiar mi carrera a programación.
       </article>
       <article> 
-                Tal vez podamos ayudarnos mutuamente... Todavía tengo cosas que practicar y aprender y estoy deseando aplicar el conocimiento que he adquirido en el mundo real. Me gustaría
-                saber más sobre mi trabajo y llegar a un entendimiento de si somos una buena elección el uno para el otro.
+      Si buscáis contratar a alguien que ama crear juegos, le encantan las matemáticas y estará contento de ayudar en este proyecto maravilloso, estaría encantado de hablar con vosotros y resolver cualquier duda.
       </article>
+      <article>En la otra página podéis encontrar algo más de información sobre mí</article>
       <article>Gracias por su tiempo. Espero que podamos hablar pronto.</article>
     </div>
   )
