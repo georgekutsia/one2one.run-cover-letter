@@ -11,7 +11,7 @@ function PdfEnglish() {
             // Setting various property values
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'gamify english.pdf';
+            alink.download = 'myself english.pdf';
             alink.click();
         })
     })

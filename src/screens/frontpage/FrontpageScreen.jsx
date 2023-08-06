@@ -25,10 +25,10 @@ function FrontpageScreen() {
       {/* cambiar de idioma el título y nombre ->  */}
           {english &&            
                     <WhoAmI name={"George Kutsia Andguladze"} title={"Junior Web Developer"} 
-                      studies={"MERN stack (Mongo.db, Express.js, React.js and Node.js)"}/> }
+                      studies={"MERN stack (Mongo.db, Express.js, React.js and Node.js)"} knowledge={"Angular, SQL, PHP, Symphony and more..."}/> }
           {spanish &&            
                     <WhoAmI name={"George Kutsia Andguladze"} title={"Desarrollador Web Junior"} 
-                      studies={"Tecnologías MERN (Mongo.db, Express.js, React.js y Node.js)"}/> }
+                      studies={"Tecnologías MERN (Mongo.db, Express.js, React.js y Node.js)"} knowledge={"Angular, SQL, PHP, Symphony y más..."}/> }
           {/* cambiar de idioma el título y nombre <--  */}
           <div>
             <ContactInfo faIcon={"fa-solid fa-mobile-screen"} contactData={"+34 601-10-52-62"}/>
@@ -51,14 +51,14 @@ function FrontpageScreen() {
           {english && <CoverLetterEnglish /> }
           {spanish &&  <CoverLetterSpanish />}
       </div>
-      <div> 
+      {/* <div> 
             { english && 
             <PdfEnglish/>
             }
             {spanish &&
               <PdfSpanish/>
             }
-      </div>
+      </div> */}
       { english && 
       <Link className='button-link my-btn btn-more-info' to="/contact">More about me</Link> }
       { spanish && 

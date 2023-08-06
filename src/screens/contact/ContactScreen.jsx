@@ -36,7 +36,7 @@ function ContactScreen() {
 
       <article className='little-more-text'>Whatever I did or do, my values and morals prevale, and they are paramount for me: 
       Loyalty, Dedication, Creativity, Curiosity, Companionship, Honesty, Empathy  <span>(too much sometimes)</span>, generosity... and if you don't like this list,
-       I have another: Courage, Determination, Toughness, Leadership, Trustworthiness, Resolvability. </article>
+       I have another: Courage, Sence of Humor, Determination, Toughness, Leadership, Trustworthiness, Resolvability. </article>
 
       <article className='little-more-text'>  I have worked at Red Cross, trying to make a world a little bit a better place; I have taught all kinds of students 
       how to defend themselves and be safe when needed; I've dedicated all my energy and free time to a company to blossom and become a household name in new places;

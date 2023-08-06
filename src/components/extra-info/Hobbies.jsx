@@ -83,17 +83,17 @@ function Hobbies() {
         <div className='info-sub-titles'>My hobbies</div>
         <div className='box-shadows'>
             <div className='hobbies-box'>
-              <button onMouseOver={handleText2hOver} onMouseOut={handleText2hOut} onClick={handleText2}> <i className={text2? "fa-solid fa-puzzle-piece fa-spin":"fa-solid fa-puzzle-piece"}></i> </button>
-              <button onMouseOver={handleText1hOver} onMouseOut={handleText1hOut} onClick={handleText1}> <i className={text1? "fa-solid fa-dice fa-spin":"fa-solid fa-dice"}></i> </button>
-              <button onMouseOver={handleText3hOver} onMouseOut={handleText3hOut} onClick={handleText3}> <i className={text3? "fa-solid fa-tv fa-spin":"fa-solid fa-tv"}></i> </button>
-              <button onMouseOver={handleText4hOver} onMouseOut={handleText4hOut} onClick={handleText4}> <i className={text4? "fa-solid fa-plane-departure fa-spin":"fa-solid fa-plane-departure"}></i> </button>
-              <button onMouseOver={handleText5hOver} onMouseOut={handleText5hOut} onClick={handleText5}> <i className={text5? "fa-solid fa-scroll fa-spin":"fa-solid fa-scroll"}></i> </button>
+              <button onMouseOver={handleText2hOver} onMouseOut={handleText2hOut} onClick={handleText2}> <i className={text2? "fa-solid fa-puzzle-piece fa-fade":"fa-solid fa-puzzle-piece"}></i> </button>
+              <button onMouseOver={handleText1hOver} onMouseOut={handleText1hOut} onClick={handleText1}> <i className={text1? "fa-solid fa-dice fa-fade":"fa-solid fa-dice"}></i> </button>
+              <button onMouseOver={handleText3hOver} onMouseOut={handleText3hOut} onClick={handleText3}> <i className={text3? "fa-solid fa-tv fa-fade":"fa-solid fa-tv"}></i> </button>
+              <button onMouseOver={handleText4hOver} onMouseOut={handleText4hOut} onClick={handleText4}> <i className={text4? "fa-solid fa-plane-departure fa-fade":"fa-solid fa-plane-departure"}></i> </button>
+              <button onMouseOver={handleText5hOver} onMouseOut={handleText5hOut} onClick={handleText5}> <i className={text5? "fa-solid fa-scroll fa-fade":"fa-solid fa-scroll"}></i> </button>
             </div>
             <div className='hobbies-box'>
-              <button onMouseOver={handleText6hOver} onMouseOut={handleText6hOut} onClick={handleText6}> <i className={text6? "fa-solid fa-children fa-spin":"fa-solid fa-children"}></i> </button>
-              <button onMouseOver={handleText7hOver} onMouseOut={handleText7hOut} onClick={handleText7}> <i className={text7? "fa-solid fa-masks-theater fa-spin":"fa-solid fa-masks-theater"}></i> </button>
-              <button onMouseOver={handleText8hOver} onMouseOut={handleText8hOut} onClick={handleText8}> <i className={text8? "fa-solid fa-user-ninja fa-spin":"fa-solid fa-user-ninja"}></i> </button>
-              <button onMouseOver={handleText9hOver} onMouseOut={handleText9hOut} onClick={handleText9}> <i className={text9? "fa-solid fa-volleyball fa-spin":"fa-solid fa-volleyball"}></i> </button>
+              <button onMouseOver={handleText6hOver} onMouseOut={handleText6hOut} onClick={handleText6}> <i className={text6? "fa-solid fa-children fa-fade":"fa-solid fa-children"}></i> </button>
+              <button onMouseOver={handleText7hOver} onMouseOut={handleText7hOut} onClick={handleText7}> <i className={text7? "fa-solid fa-masks-theater fa-fade":"fa-solid fa-masks-theater"}></i> </button>
+              <button onMouseOver={handleText8hOver} onMouseOut={handleText8hOut} onClick={handleText8}> <i className={text8? "fa-solid fa-user-ninja fa-fade":"fa-solid fa-user-ninja"}></i> </button>
+              <button onMouseOver={handleText9hOver} onMouseOut={handleText9hOut} onClick={handleText9}> <i className={text9? "fa-solid fa-volleyball fa-fade":"fa-solid fa-volleyball"}></i> </button>
             </div>
         </div>
         <div className='hobbie-example-text'>
