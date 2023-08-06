@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { FadeInOut, Hobbies, Projects, Skills } from '../../components'
+import { Hobbies, Projects, Skills } from '../../components'
 
 
 function ContactScreen() {
@@ -48,20 +48,14 @@ function ContactScreen() {
       {/* <MyInfo/> */}
       {/* <WorkExperience/> */}
       {hobbies && 
-      <FadeInOut show duration={3500}>
           <Hobbies/>
-      </FadeInOut>
       }
-      {project && 
-      <FadeInOut show duration={3500}>
+      {/* {project && 
           <Projects/>
-      </FadeInOut>
-      }
-      <FadeInOut show duration={4500}>
+      } */}
       {skill && 
           <Skills/>
       }
-      </FadeInOut>
       <Link className='button-link my-btn  btn-more-info' to="/">Back to frontpage</Link>
     </div>
   )
